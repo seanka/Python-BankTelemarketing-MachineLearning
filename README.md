@@ -1,7 +1,7 @@
-<h1 style="font-weight:bold;text-align:center"> Bank Telemarketing Marketing Campaign </h1>
+<h1 style="font-weight:bold"> Bank Telemarketing Marketing Campaign </h1>
 
-<p style="text-align:center;font-weight:600">&emsp;Sean Kristian Anderson&emsp;||&emsp;Davis&emsp;</p>
-<p style="text-align:center;">DTIDS-0206 Final Project by Alpha Team</p>
+<p style="font-weight:600">&emsp;Sean Kristian Anderson&emsp;||&emsp;Davis Sebastian&emsp;</p>
+<p style="">DTIDS-0206 Final Project by Alpha Team</p>
 
 ---
 
@@ -49,15 +49,13 @@ Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit clas
 
 Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper.
 
-- Lorem ipsum odor amet, consectetuer adipiscing elit.
-- Lorem ipsum odor amet, consectetuer adipiscing elit.
-- Lorem ipsum odor amet, consectetuer adipiscing elit.
-- Lorem ipsum odor amet, consectetuer adipiscing elit.
-- **dataset/**
+- **Dataset/**
   - **bank-additional-full.csv** : raw dataset.
-- **models/**
+- **Models/**
   - **model.pkl** : exported machine learning model using xxx algorithm.
-- **resources/** : additional resources supporting this projects.
+- **Notes/**
+  - **.ipynb**: final jupyter notebook
+- **Resources/** : additional resources supporting this projects.
 
 ## Misc.
 
