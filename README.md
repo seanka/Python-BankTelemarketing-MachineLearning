@@ -45,6 +45,10 @@ Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit clas
 
 Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper. Purus proin facilisi fusce pulvinar curabitur convallis dolor. Sollicitudin laoreet dolor quis lectus porttitor vulputate laoreet. Mattis ex curae non sit; massa tincidunt.
 
+## Navigating through Notebook
+
+The final jupyter notebook work is located under **Notebook/Notebook.ipynb**. For easier navigation, Table Of Content (TOC) is provided within the notebook under the heading section. Each entry in the TOC is linked to its corresponding section-simply click on desired entry to jump directly to that section.
+
 ## Project Directory
 
 Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper.
@@ -53,7 +57,7 @@ Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit clas
   - **bank-additional-full.csv** : raw dataset.
 - **Models/**
   - **model.pkl** : exported machine learning model using xxx algorithm.
-- **Notes/**
+- **Notebook/**
   - **.ipynb**: final jupyter notebook
 - **Resources/** : additional resources supporting this projects.
 
