@@ -1,53 +1,83 @@
 <h1 style="font-weight:bold"> Bank Telemarketing Marketing Campaign </h1>
 
-<p style="font-weight:600">&emsp;Sean Kristian Anderson&emsp;||&emsp;Davis Sebastian&emsp;</p>
-<p style="">DTIDS-0206 Final Project by Alpha Team</p>
+DTIDS-0206 Alpha Team Final Project  
+Created By: Davis Sebastian, Sean Kristian Anderson
 
 ---
 
 ## Overview
 
-Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper. Purus proin facilisi fusce pulvinar curabitur convallis dolor. Sollicitudin laoreet dolor quis lectus porttitor vulputate laoreet. Mattis ex curae non sit; massa tincidunt. Nostra class consectetur nibh convallis tempus maximus; amet nisl molestie. Natoque platea semper mus commodo praesent laoreet tincidunt maximus ridiculus. Leo sodales rhoncus dui placerat mi; et imperdiet. Volutpat nisl justo mus class arcu nisi mollis mattis est.
+![Portugal GPD Growth](https://raw.githubusercontent.com/seanka/Python-BankTelemarketing-MachineLearning/master/Resources/Images/portugal_gdp.png)
+
+Portugal, a country located in Europe seems to have negative GDP growth from 2007 before it sinks in 2009. Which was the worst GDP growth this country ever encountered since twenty years ago. Negative GDP growth, for context is marked with higher unemployment rate, lower personal income and lower retail or wholesale sales.
+
+However, a portuguese banking institution conducted a telemarketing campaign in 2008 to 2010. Term deposit is a type of deposit that specify the maturity date. Despite the benefits of term deposit such as minimum risk, this campaign results in a disappointment and didn't work as well as expected. Which could be affected by the economical struggle that Portugal encountered. This campaign however, returns the number of customer that actually open a term deposit account for only around 10% of the total customer contacted. Therefore, this institution wasted many resources and efforts while trying to convince customers to open a deposit account.
 
 ## Business Problem Statement
 
-Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper. Purus proin facilisi fusce pulvinar curabitur convallis dolor. Sollicitudin laoreet dolor quis lectus porttitor vulputate laoreet. Mattis ex curae non sit; massa tincidunt. Nostra class consectetur nibh convallis tempus maximus; amet nisl molestie. Natoque platea semper mus commodo praesent laoreet tincidunt maximus ridiculus. Leo sodales rhoncus dui placerat mi; et imperdiet. Volutpat nisl justo mus class arcu nisi mollis mattis est.
+Direct marketing, is a marketing strategy that reaching out potential customers directly via phone calls, emails, etc. Although this strategy requires low cost, it has many drawbacks includes irritates customer, time consuming, limited reaches. Typically, this method has a low conversion rate despite all the effort marketing team had put in this method. In addition without proper prediction such as no initial screening before performing the call, the wasted effort becomes worse.
 
-![Tableau Icon](https://bsu-wpe-blogs.s3.amazonaws.com/wp-content/uploads/sites/38/2023/02/24133338/Tableau-Logo-1024x576.png)
-
-Elit massa sapien efficitur consectetur purus litora leo pretium. Porta aptent eget mauris pellentesque senectus per quam quam. Lectus suspendisse efficitur morbi et nibh, eu adipiscing urna odio. Atincidunt habitasse, augue nostra arcu ridiculus. Consequat eget vivamus torquent aptent commodo lacus. Suscipit augue ante nisi torquent interdum, dapibus condimentum dis. Id libero montes arcu, conubia habitasse augue lobortis. Pharetra orci dis dapibus feugiat ex. Hendrerit litora tristique lacinia curae rutrum senectus euismod et.
+Despite the drawbacks from direct telemarketing strategy, the effectiveness of this method can be increased using machine learning. The model have a goal to increase the institution benefit by predicting the likelihood of customers open a term deposit account while reducing its expenses by avoiding unnecessary calls. Allowing them to secure as many term deposits as quickly as possible for operational purposes. In addition, this model will also introduce a stronger bank customer relationship by minimizing the disturbance for them. Later on, this model should be the guidelines for the marketing team before performing the calls in order to yield efficient campaigns.
 
 ## Project Outline
 
-Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper. Purus proin facilisi fusce pulvinar curabitur convallis dolor.
+### 1. Business Problem Understanding
 
-### 1. ABC
+Understanding the overall business, problem encountered and suggested solutions.
 
-Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper. Purus proin facilisi fusce pulvinar curabitur convallis dolor. Sollicitudin laoreet dolor quis lectus porttitor vulputate laoreet. Mattis ex curae non sit; massa tincidunt.
+### 2. Data Understanding
 
-### 2. ABC
+Dive towards the data, and import required libraries to support the machine learning development.
 
-Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper. Purus proin facilisi fusce pulvinar curabitur convallis dolor. Sollicitudin laoreet dolor quis lectus porttitor vulputate laoreet. Mattis ex curae non sit; massa tincidunt.
+### 3. Exploratory Data Analysis (EDA)
 
-### 3. ABC
+Data exploration using visualization graphs to discover insights, patterns, and intterelation. Which could provide strong reasoning for any method or approches done for the next sections.
 
-Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper. Purus proin facilisi fusce pulvinar curabitur convallis dolor. Sollicitudin laoreet dolor quis lectus porttitor vulputate laoreet. Mattis ex curae non sit; massa tincidunt.
+### 4. Data Preprocessing
 
-### 4. ABC
+Handle the raw dataset including duplicated value, missing value, and outliers to obtain better overall accuracy since these values could negatively affects the process of machine learning training.
 
-Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper. Purus proin facilisi fusce pulvinar curabitur convallis dolor. Sollicitudin laoreet dolor quis lectus porttitor vulputate laoreet. Mattis ex curae non sit; massa tincidunt.
+### 5. Feature Engineering
 
-### 5. ABC
+Handle engineering against the features included in the dataset which includes encoding and scaling before passing the data into the machine learning model.
 
-Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper. Purus proin facilisi fusce pulvinar curabitur convallis dolor. Sollicitudin laoreet dolor quis lectus porttitor vulputate laoreet. Mattis ex curae non sit; massa tincidunt.
+### 6. Modeling
 
-### 6. ABC
+Exploration towards differnce machine learning model, data approches, and hyperparameter to obtain the best fit results. Analysis on each benchmark methods and its utilization on the business approaches.
 
-Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper. Purus proin facilisi fusce pulvinar curabitur convallis dolor. Sollicitudin laoreet dolor quis lectus porttitor vulputate laoreet. Mattis ex curae non sit; massa tincidunt.
+### 7. Conclusion and Recommendation
+
+Conlusion or summary in business perspective and for the machine learning model. Recommendation in actionable actions that can be done by stakeholders to increase the business profit or advanced machine learning development in the future to achieve better overall accuracy.
+
+### 8. Model Export
+
+Going through the overall machine learning workflow, and export the model into .pkl extension file. Exported model is used for the dashboard to create new prediction using custom features inputted by user.
 
 ## Navigating through Notebook
 
 The final jupyter notebook work is located under **Notebook/Notebook.ipynb**. For easier navigation, Table Of Content (TOC) is provided within the notebook under the heading section. Each entry in the TOC is linked to its corresponding section-simply click on desired entry to jump directly to that section.
+
+## Dashboard
+
+Dashboards are included in this project to assist the understanding of the machine learning workflow.
+
+### Tableau
+
+The <a href="https://google.com">Tableau Dashboard</a> includes sections on the Business Problem, Explaratory Data Analysis (EDA), Model Performance, Conclusion, and Recommendation.
+
+### Streamlit
+
+The <a href="http://194.59.165.17:1010">Streamlit Dashboard</a> allows user to input custom data for predictions. It provides insights into data preprocessing, feature engineering, oversampling, and the prediction process.
+
+Follow this step below to create a prediction with the provided dashboard:
+
+![Streamlit Dashboard Example](https://raw.githubusercontent.com/seanka/Python-BankTelemarketing-MachineLearning/master/Resources/Images/streamlit_screenshot.png)
+
+1. Open the dashboard link using any browser.
+2. Input the user features in the purple section, ensure that every field has inputted properly.
+3. On the bottom of the user input features field, click on the "Prediction" button to create a prediction.
+4. Prediction result towards the custom data is provided in the right side.
+5. Yellow section provides the summary of the prediction, Blue section provides the features importance using SHAP method.
 
 ## Project Directory
 
@@ -56,14 +86,7 @@ Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit clas
 - **Dataset/**
   - **bank-additional-full.csv** : raw dataset.
 - **Models/**
-  - **model.pkl** : exported machine learning model using xxx algorithm.
+  - **final_model.pkl** : exported machine learning workflow model, including data preprocessing, feature engineering, oversampling, and prediction using lightgbm model.
 - **Notebook/**
-  - **.ipynb**: final jupyter notebook
-- **Resources/** : additional resources supporting this projects.
-
-## Misc.
-
-blabla
-
-- <a href="https://google.com"> Tableau Dashboard </a>
-- <a href="https://banktelemarketingdashboard-alphateam.streamlit.app"> Streamlit Dashboard </a>
+  - **.ipynb**: final jupyter notebook.
+- **Resources/** : additional resources required for the machine learning dashboard.
