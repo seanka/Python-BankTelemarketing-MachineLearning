@@ -1,11 +1,13 @@
 <h1 style="font-weight:bold"> Bank Telemarketing Marketing Campaign </h1>
 
-DTIDS-0206 Alpha Team Final Project
+DTIDS-0206 Alpha Team Final Project  
 Created By: Davis Sebastian, Sean Kristian Anderson
 
 ---
 
 ## Overview
+
+![Portugal GPD Growth](https://raw.githubusercontent.com/seanka/Python-BankTelemarketing-MachineLearning/master/Resources/Images/portugal_gdp.png)
 
 Portugal, a country located in Europe seems to have negative GDP growth from 2007 before it sinks in 2009. Which was the worst GDP growth this country ever encountered since twenty years ago. Negative GDP growth, for context is marked with higher unemployment rate, lower personal income and lower retail or wholesale sales.
 
