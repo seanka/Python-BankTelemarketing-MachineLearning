@@ -85,8 +85,9 @@ Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit clas
 
 - **Dataset/**
   - **bank-additional-full.csv** : raw dataset.
+  - **bank_marketing_test_data.csv** : 20 records of randomized dataset for dashboard testing.
 - **Models/**
   - **final_model.pkl** : exported machine learning workflow model, including data preprocessing, feature engineering, oversampling, and prediction using lightgbm model.
 - **Notebook/**
-  - **.ipynb**: final jupyter notebook.
+  - **Notebook.ipynb**: final jupyter notebook.
 - **Resources/** : additional resources required for the machine learning dashboard.

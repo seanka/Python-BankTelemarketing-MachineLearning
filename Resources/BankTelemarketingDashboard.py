@@ -104,12 +104,9 @@ with singleTab:
             "student",
             "technician",
             "unemployed",
-            "unknown",
         ],
     )
-    marital = st.selectbox(
-        "Marital Status", ["divorced", "married", "single", "unknown"]
-    )
+    marital = st.selectbox("Marital Status", ["divorced", "married", "single"])
     education = st.selectbox(
         "Education",
         [
@@ -120,12 +117,11 @@ with singleTab:
             "illiterate",
             "professional.course",
             "university.degree",
-            "unknown",
         ],
     )
-    default = st.selectbox("Has Credit in Default?", ["no", "yes", "unknown"])
-    housing = st.selectbox("Has Housing Loan?", ["no", "yes", "unknown"])
-    loan = st.selectbox("Has Personal Loan?", ["no", "yes", "unknown"])
+    default = st.selectbox("Has Credit in Default?", ["no", "yes"])
+    housing = st.selectbox("Has Housing Loan?", ["no", "yes"])
+    loan = st.selectbox("Has Personal Loan?", ["no", "yes"])
     contact = st.selectbox("Contact Type", ["cellular", "telephone"])
     month = st.selectbox(
         "Last Contact Month",
@@ -144,7 +140,7 @@ with singleTab:
     )
     day_of_week = st.selectbox(
         "Last Contact Day of the Week",
-        ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+        ["mon", "tue", "wed", "thu", "fri"],
     )
     duration = st.number_input(
         "Last Contact Duration (seconds)", min_value=0, value=180
@@ -294,8 +290,8 @@ with st.container():
                 <h4>{prediction_dict[1]} customers are likely will open a deposit account,</h4>
                 <h5>while {prediction_dict[0]} will not.</h5>
                 <p></p>
-                <p style='text-align:left'>Revenue&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;: <b>€{prediction_dict[1] * 7.5}</b></p>
-                <p style='text-align:left'>Saved Cost&emsp;&emsp;: <b>€{prediction_dict[0] * 1.0944}</b></p>
+                <p style='text-align:left'>Deposit Revenue&emsp;&emsp;:&emsp;<b>€{prediction_dict[1] * 7.5}</b></p>
+                <p style='text-align:left'>Saved Cost&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;:&emsp;<b>€{prediction_dict[0] * 1.0944}</b></p>
             </div>
             """,
             unsafe_allow_html=True,
